@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>table-layout</title>
+    <style>
+      table {
+        table-layout: fixed; /* Фиксированная ширина ячеек */
+        width: 100%; /* Ширина таблицы */
+      }
+      .col1 {
+        width: 160px;
+      }
+      .coln {
+        width: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <table  style="width: 900px;  empty-cells: show; max-width: 100%; cellspacing:0px;  border-collapse: collapse;  ">
+      <tbody>
+        <tr  style="user-select: none; ">
+          <td style="border: 1px solid black; color: rgb(0, 0, 0); font-family: Arial, FreeSans, Helvetica, sans-serif; font-size: 12px;padding: 0px 10px 10px 0px; width:  100px;  user-select: text;">
+            <div style="text-align: center;"><div>Дата</div>
+          </td>
+          <td  style="border: 1px solid black;color: rgb(0, 0, 0); font-family: Arial, FreeSans, Helvetica, sans-serif; font-size: 12px; padding: 0px 10px 10px 0px; width:  100px; user-select: text; ">
+            <div style="text-align: center;"><div>Время</div>
+          </td>
+          <td style="border: 1px solid black;color: rgb(0, 0, 0); font-family: Arial, FreeSans, Helvetica, sans-serif; font-size: 12px; padding: 0px 10px 10px 0px; width:  150px; min-width: 5px; user-select: text;">
+            <div style="text-align: center;"><div>Тип работ</div>
+          </td>
+          <td style="border: 1px solid black;color: rgb(0, 0, 0); font-family: Arial, FreeSans, Helvetica, sans-serif; font-size: 12px; padding: 0px 10px 10px 0px; width:  150px; min-width: 5px; user-select: text; ">
+            <div style="text-align: center;"><div>Вид работ</div>
+          </td>
+          <td  style="border: 1px solid black;color: rgb(0, 0, 0); font-family: Arial, FreeSans, Helvetica, sans-serif; font-size: 12px; padding: 0px 10px 10px 0px; width:  150px; min-width: 5px; user-select: text; ">
+            <div style="text-align: center;"><div>Статус</div>
+          </td>
+          <td  style="border: 1px solid black;color: rgb(0, 0, 0); font-family: Arial, FreeSans, Helvetica, sans-serif; font-size: 12px; padding: 0px 10px 10px 0px;  width:  400px; min-width: 5px; user-select: text; ">
+            <div style="text-align: center;"><div>Примечание</div>
+          </td>
+        </tr>'''
+ <tr style="user-select: none;">
+          <td  style="border:1px solid black;color: rgb(0, 0, 0); font-family: Arial, FreeSans, Helvetica, sans-serif; font-size: 12px; padding: 0px 10px 10px 0px;  width:  100px; min-width: 5px; user-select: text;">
+<div style="text-align: center;"><div>'''+one[0]+'''</div>
+          </td>
+          <td  style="border:1px solid black;color: rgb(0, 0, 0); font-family: Arial, FreeSans, Helvetica, sans-serif; font-size: 12px; padding: 0px 10px 10px 0px;  width:  100px; min-width: 5px; user-select: text;">
+            <div style="text-align: center;"><div>'''+one[1]+'''</div>
+          </td>
+          <td style="border:1px solid black;color: rgb(0, 0, 0); font-family: Arial, FreeSans, Helvetica, sans-serif; font-size: 12px; padding: 0px 10px 10px 0px; width:  150px; min-width: 5px; user-select: text; ">
+            <div style="text-align: center;"><div>'''+one[2]+'''</div>
+          </td>
+          <td  style="border:1px solid black;color: rgb(0, 0, 0); font-family: Arial, FreeSans, Helvetica, sans-serif; font-size: 12px; padding: 0px 10px 10px 0px;  width:  150px; min-width: 5px; user-select: text;">
+            <div style="text-align: center;"><div>'''+one[3]+'''</div>
+          </td>
+          <td style="border:1px solid black;color: rgb(0, 0, 0); font-family: Arial, FreeSans, Helvetica, sans-serif; font-size: 12px; padding: 0px 10px 10px 0px; width:  150px; min-width: 5px; user-select: text; ">
+            <div style="text-align: center;"><div>'''+one[4]+'''</div>
+          </td>
+          <td  style="border:1px solid black;color: rgb(0, 0, 0); font-family: Arial, FreeSans, Helvetica, sans-serif; font-size: 12px; padding: 0px 10px 10px 0px; width:  400px; min-width: 5px; user-select: text;">
+            <div style="text-align: center;"><div>'''+one[5]+'''</div>
+          </td>
+        </tr>
+</tbody><table>
+
+    
+  </body>
+</html>

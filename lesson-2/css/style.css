@@ -1,0 +1,31 @@
+p{
+  color: purple;
+}
+
+.silver{
+  color: silver;
+}
+
+#silver{
+  color: silver;
+}
+
+.blue.red{
+  color: blue;
+  color: silver;
+}
+
+.red{
+  color: red;
+}
+
+.redBlue{
+  color: black;
+}
+
+
+.silver,
+.section,
+#silver{
+  font-size: 24px;
+}
