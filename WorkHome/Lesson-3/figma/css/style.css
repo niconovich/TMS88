@@ -1,0 +1,118 @@
+@import url("fonts.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    width: 1200px;
+    /*margin: 0 15px;*/
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.container{
+    width: 1170px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.container.addparams {
+    border: 1px solid #C6CBCD;
+    
+}
+
+.tabmenu__item{
+    width: 184px;
+    height: 40px;
+    display: inline-block;
+    margin-bottom: -2px;
+}
+
+.tabmenu__item__text{
+    font-family: 'Open Sans', sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 auto;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color:  #333333;
+}
+
+.tabmenu__item.active{
+    border-top: 1px solid #C6CBCD;
+    border-left: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    border-bottom: 1px solid white;
+    border-radius: 5px 5px 0 0;
+}
+
+.wrapper{
+    width: 1170px;
+    
+}
+
+.wrapper__info{
+    vertical-align: top; 
+    display: inline-block;
+    padding-left: 100px;
+    padding-right: 70px;
+    width: 690px;
+    margin: 0 -3px 0 0;
+}
+
+.wrapper__info__title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-shadow: 0px 4px 4px;
+    line-height: 41px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.wrapper__info__text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.wrapper__info__button{
+    display: block;
+    background-color: #EC7979;
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    border: 0;
+    width: 270px;
+    height: 58px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.wrapper__info.images{
+    padding:0;
+    width: 478px;
+    margin:0;
+}
+
+.image{
+    /*object-fit: fill;*/
+    width: 478px; 
+}

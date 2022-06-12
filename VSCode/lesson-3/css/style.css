@@ -1,0 +1,83 @@
+@import "fonts.css";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Raleway', sans-serif;
+}
+.wrapper{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.awesome{
+  padding: 100px 0;
+}
+
+.main-title{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.line{
+  width: 170px;
+  height: 1px;
+  margin: 50px auto;
+  background: red;
+}
+
+.main-subtitle p{
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878B;
+  text-align: center;
+}
+
+.awesome-carts{
+  margin-top: 50px;
+}
+
+.awesome-carts__item{
+  display: inline-block;
+  width: 370px;
+}
+
+.awesome-carts__item__img{
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  border: 1px solid #EC7979;
+  margin: 0 auto;
+}
+
+.awesome-carts__item__img img{
+  display: block;
+  margin: 15px auto 0;
+}
+
+.awesome-carts__item__title{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: capitalize;
+  color: #000000;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.awesome-carts__item__text p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 50px;
+}

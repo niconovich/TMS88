@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.awesome {
+  padding: 100px 0;
+}
+
+.awesome-carts__item {
+  display: inline-block;
+  width: 370px;
+  height: 300px;
+  overflow: hidden;
+  border: 2px solid orange;
+  padding: 20px;
+  border-radius: 0 10px 0 10px;
+}
+
+.awesome-carts__item--scroll{
+  overflow: scroll;
+}
+
+.awesome-carts__item__title,
+.awesome-carts__item__text{
+  margin-top: 20px;
+  text-align: right;
+}
+
+.awesome-carts__item__text{
+ text-align: justify;
+}
+
+.tab__item{}
+.tab__item.active{
+
+}
+.active{
+
+}

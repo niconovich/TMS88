@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .frame_Version1{
+       width: 400px;
+       margin: 15px 15px;
+       border: 8px double white;
+       background-color: violet;
+       color: white;
+       padding: 5px;
+  }
+
+  .frame_Version2{
+    margin: 15px 15px;
+    width: 400px;
+    background-color: violet;
+    padding: 2px;
+  }
+  .frame_Version2_text{
+    border: 2px solid white;
+    padding: 5px;
+    background-color: violet;
+    color: white;
+  }
+
+
+  .frame_Version3{
+    margin: 15px 15px;
+    width: 400px;
+    border: 2px solid violet;
+ 
+  }
+  .frame_Version3_text{
+    border: 2px solid white;
+    padding: 5px;
+    margin: 1px;
+    background-color: violet;
+    color: white;
+  }
