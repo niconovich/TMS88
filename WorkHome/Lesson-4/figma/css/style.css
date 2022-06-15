@@ -5,11 +5,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    background-color: #F5F5F5;
+}
 .section{
     width: 1200px;
     margin: 0 auto;
     margin-top: 15px;
-    background-color: #F5F5F5;
+   
    
 }
 
