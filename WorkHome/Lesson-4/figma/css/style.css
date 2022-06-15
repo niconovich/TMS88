@@ -1,0 +1,143 @@
+@import url("fonts.cs");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: #F5F5F5;
+   
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.mainCart{
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.mainCart__main {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-transform: uppercase;
+align-items: center;
+text-align: center;
+margin:  30px 0 30px 0;
+}
+
+
+.mainCart__separator{
+    margin: 0 auto;
+    width: 170px;
+    border: 1px solid #EC7979; 
+    background-color: #EC7979;
+
+}
+.mainCart__text{
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+align-items: center;
+text-align: center;
+color: #86878B;
+margin:  20px 0 20px 0;
+}
+
+.price{
+    display: inline-block;
+    width: 370px;
+    vertical-align: top; 
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.optima{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.price__Heder{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+}
+
+.downLine{
+    margin-top: 60px;
+}
+ 
+.price__main{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+.price__cost{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.price__free{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.paramsadd{
+    background-color: #333333;
+    padding: 20px 0;
+    border: 2px  solid #F5F5F5;
+}
+.biginterval{
+    padding: 30px 0;
+  
+}
+
+.price__list{
+    font-family: 'Raleway', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #86878B;
+    background-color: white;
+    padding: 20px 0;
+    border: 2px  solid #F5F5F5;
+
+}
