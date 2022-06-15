@@ -64,19 +64,22 @@ margin:  20px 0 20px 0;
     vertical-align: top; 
     margin-top: 30px;
     margin-bottom: 60px;
+
 }
 
 .optima{
     margin-left: 20px;
     margin-right: 20px;
+    box-shadow: 2px 2px 4px gray;
+
 }
 
 .price__Heder{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
     text-transform: uppercase;
     align-items: center;
     text-align: center;
