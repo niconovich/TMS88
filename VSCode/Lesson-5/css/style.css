@@ -1,0 +1,36 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.wraper-flex{
+	display: flex;
+	width: 800px;
+	height: 500px;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 2px solid red;
+	margin: 20px auto;
+	
+}
+
+.flex_item{
+	width: 100px;
+	height: 100px;
+	padding: 40px; 
+	border: 2px solid green;
+}
+
+.element1{
+	order:3 ;
+	align-self: center;
+
+}
+.element2{
+	order:1 ;
+	align-self: flex-start;
+}
+.element3{
+	order:2 ;
+	align-self: center;
+}
