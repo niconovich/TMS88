@@ -12,13 +12,13 @@ html{
     width: 1200px;
     margin: 0 auto;
     margin-top: 15px;
-   
-   
 }
 
 .container{
-    width: 1170px;
-    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    width: 1200px;
+    margin: 15 auto;
 }
 
 .mainCart{
@@ -59,7 +59,9 @@ margin:  20px 0 20px 0;
 }
 
 .price{
-    display: inline-block;
+    display: flex;
+    
+    flex-direction: column;
     width: 370px;
     vertical-align: top; 
     margin-top: 30px;
@@ -69,8 +71,7 @@ margin:  20px 0 20px 0;
 }
 
 .optima{
-    margin-left: 20px;
-    margin-right: 20px;
+
     box-shadow: 2px 2px 4px gray;
 
 }
