@@ -19,6 +19,7 @@ html{
     justify-content:space-between;
     width: 1200px;
     margin: 15 auto;
+    padding-top: 20px;
 }
 
 .mainCart{
@@ -60,78 +61,12 @@ margin:  20px 0 20px 0;
 
 .price{
     display: flex;
-    
     flex-direction: column;
     width: 370px;
     vertical-align: top; 
-    margin-top: 30px;
-    margin-bottom: 60px;
+    margin-top: 60px; 
     list-style: none;
-
-}
-
-.optima{
-
-    box-shadow: 2px 2px 4px gray;
-
-}
-
-.price__Heder{
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    text-transform: uppercase;
-    align-items: center;
-    text-align: center;
-}
-
-.downLine{
-    margin-top: 60px;
-}
- 
-.price__main{
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    align-items: center;
-    text-align: center;
-    color: white;
-
-}
-.price__cost{
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    align-items: center;
-    text-align: center;
-    color: white;
-}
-
-.price__free{
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    align-items: center;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.paramsadd{
-    background-color: #333333;
-    padding: 20px 0;
-    border: 2px  solid #F5F5F5;
-}
-.biginterval{
-    padding: 30px 0;
-  
+    flex-grow: 1 3 1 1 1 1 1 1 1; 
 }
 
 .price__list{
@@ -145,7 +80,58 @@ margin:  20px 0 20px 0;
     text-transform: capitalize;
     color: #86878B;
     background-color: white;
-    padding: 20px 0;
+    padding: 10px 0; 
     border: 2px  solid #F5F5F5;
 
+}
+
+.price__Heder{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.optima{
+    margin-top: 20px;
+    /* box-shadow: 2px 2px 4px gray; */
+}
+
+.paramsadd{
+    background-color: #333333;
+    padding: 10px 0; 
+    border: 2px  solid #F5F5F5;
+}
+
+.coast{
+    /* padding: 30px 0; */
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    align-items: center;
+    text-align: center;
+    color: white;
+ 
+}
+
+.free{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.price:hover{
+    filter: drop-shadow(0px 4px 10px rgba(51,51,51,0.2));
 }
