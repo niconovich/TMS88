@@ -427,6 +427,7 @@ padding-top: 40px;
 }
 
 .form_send_send{
+	outline: none;
 	margin: 30px auto;
 	width: 370px;
 	height: 58px;
@@ -505,7 +506,7 @@ padding-top: 40px;
 }
 
 .banner{
- 	display:flex;
+	display:flex;
 	padding-top: 20px;
 	justify-content: center;
 	justify-items: center;
@@ -522,6 +523,7 @@ padding-top: 40px;
 
 .main_title_banner_buttun{
 	display: flex;
+	outline: none;
 	align-items: center;
 	justify-content: center;
 	width: 270px;
@@ -539,12 +541,14 @@ padding-top: 40px;
 
 .main_title_banner_buttun:hover{
 	cursor: pointer;
+	outline: none;	
 	border: 1px solid  #EC7979;
 	color: #EC7979 ;
 }
 
 .main_title_banner_buttun:active{
 	cursor: pointer;
+	outline: none;
 	border: 1px solid  #AB4949;
 	color: #AB4949 ;
 }
