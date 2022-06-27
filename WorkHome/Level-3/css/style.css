@@ -515,6 +515,9 @@ padding-top: 40px;
 	color: #FFFFFF;
 }
 
+.addbanner::after{
+	background: #FFFFFF;
+}
 
 
 .main_title_banner_buttun{
