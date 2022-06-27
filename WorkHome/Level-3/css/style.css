@@ -25,6 +25,21 @@
 
 .header{
 	background-color: #000000;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+.section{
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.banner{
+	max-width: 1500px;
+	margin: 0 auto;
+}
+.footer{
+	max-width: 1500px;
+	margin: 0 auto;
 }
 
 .upmenu{
@@ -41,7 +56,7 @@
 	align-items: center;
 	justify-content:space-between;
 	max-width: 614px;
- }
+}
 
 .header_menu_item{
 	display: flex;
@@ -132,24 +147,24 @@
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 21px;
- 	color: #FFFFFF;
+	color: #FFFFFF;
 }
 
 .main_buttun{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 270px;
-  height: 58px;
-  color: #FFFFFF;
-  border: 1px solid #FFFFFF ;
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: capitalize;
-  margin: 100px 0 0 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 270px;
+	height: 58px;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF ;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: capitalize;
+	margin: 80px 0 0 0;
 }
 
 .main_buttun:hover{
@@ -172,7 +187,7 @@
 
 .form{
 	width: 470px;
-    background: #FFFFFF;
+	background: #FFFFFF;
 	border-radius: 10px;
 
 }
@@ -285,7 +300,6 @@
 	color: #86878B;
 }
 
- 
 .up_menu{
 	position: relative;
 
@@ -376,7 +390,6 @@ padding-top: 40px;
 	border-bottom: 1px solid #BDBDBD;
 	padding: 19px 0px;
 	color: #BDBDBD;
- 
 }
 	
 .form_send_textarea{
@@ -413,8 +426,6 @@ padding-top: 40px;
 	justify-content: center;
 }
 
-
-
 .form_send_send{
 	margin: 30px auto;
 	width: 370px;
@@ -437,7 +448,7 @@ padding-top: 40px;
 	border: none;
 	cursor: pointer;
 	border: 1px solid  #AB4949;
- 
+
 }
 .form_send_send:active{
 	resize: none;
@@ -447,7 +458,6 @@ padding-top: 40px;
 	box-shadow: inset 0px 0px 10px #AB4949; 
 }
 
- 
 
 
 
