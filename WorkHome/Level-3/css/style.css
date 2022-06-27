@@ -511,54 +511,27 @@ padding-top: 40px;
 	justify-items: center;
 }
 
-.main_title_banner_title_text{
-	margin-bottom: 20px;
-	font-family: 'Raleway', sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 48px;
-	line-height: 56px;
-	text-align: left;
-	text-transform: uppercase;
+.addbanner{
 	color: #FFFFFF;
 }
-.main_title_banner::after{
- 	position: relative;
-	content: "";
-	top: 130px;
-	width: 170px;
-	height: 2px;
-	background: #FFFFFF;
-	left:50% ;
-	bottom:0;
-	transform: translate(0, -50%);
-}
 
-.main_title_banner_text{
-	margin-top: 40px;
-	font-family: 'Raleway';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 21px;
- 	color: #FFFFFF;
-}
+
 
 .main_title_banner_buttun{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 270px;
-  height: 58px;
-  color: #FFFFFF;
-  border: 1px solid #FFFFFF ;
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: capitalize;
-  margin: 50px 0 ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 270px;
+	height: 58px;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF ;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: capitalize;
+	margin: 50px auto ;
 }
 
 .main_title_banner_buttun:hover{
