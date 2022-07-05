@@ -1,0 +1,19 @@
+{
+  "name": "level-2",
+  "version": "1.0.0",
+  "description": "Level 2 Nikonovich V.F.",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Nikonovich V.F.",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.6.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2"
+  }
+}
