@@ -87,6 +87,11 @@
 	display: flex;
 	align-items: center;
 }
+
+.header_block:nth-child(3){
+	display: none;
+}
+
 .header_block__logo:hover{
 	cursor: pointer	;
 }
@@ -996,12 +1001,26 @@ color: #000000;
 		.wrapper {
 			max-width: 320px;
 		}
+		.upmenu{
+			justify-content: space-around;
+		}
 		.header_block__logo{
 			margin:20px ;
 		}
-		.header_block nav{
+		.header_block:nth-child(2){
 			display: none;
 		}
+
+		.header_block:nth-child(3){
+			display: flex;
+			justify-content: end;
+			margin: 20px;
+		}
+
+		.header_block:nth-child(3) img:active{
+			border:1px solid #AB4949;
+		}
+
 		.leftmenu{
 			width:288px;
 			margin: 0;
