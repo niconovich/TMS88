@@ -232,6 +232,7 @@
     justify-content: space-around;
 }
 .box_menu_people_item{
+    width: 270px;
     display: flex;
     flex-direction: column;
 
@@ -258,6 +259,7 @@
     color: #6C7279;
 }
 .box_menu_people_item_job{
+    margin-top: 10px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -426,10 +428,38 @@
     justify-content: center;
 }
 .baner_box_item{
+    display: flex;
     width: 741 px;
+    background-color: #5C3249;
+    flex-direction: column;
+  
+}
+.baner_box_item_title{
+    margin: 116px 170px 10px 129px;
+    width: 471px;
+    font-family: 'Cardo';
+font-style: italic;
+font-weight: 400;
+font-size: 36px;
+line-height: 49px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
 }
 
-
+.baner_box_item_auther{
+    margin: 0 170px 0 129px;
+    width: 471px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
 
 
 
