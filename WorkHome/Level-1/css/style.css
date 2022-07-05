@@ -225,6 +225,69 @@
     color: #6C7279;
 }
 
+.box_menu_people{
+    margin-top: 114px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box_menu_people_item{
+    display: flex;
+    flex-direction: column;
+
+}
+.box_menu_people_item_photo{
+   width: 270px;
+}
+.box_menu_people_item_FIO h3{
+    margin-top: 35px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2D3033;
+}
+.box_menu_people_item_text{
+    margin-top: 29px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #6C7279;
+}
+.box_menu_people_item_job{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FF4343;
+}
+.box_menu_people_item_icon{
+   margin-top: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.box_menu_people_item_icon_it{
+    margin: 3px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 39px;
+    width: 39px;
+    border: 1px solid #C6CBCD;
+}
+.box_menu_people_item_icon_it img{
+   /* sizes: 18px;*/
+    height: 18px;
+    
+}
+
+
 .box_project_wrapper{
     margin: 50px auto;
     margin-top: 130px;
