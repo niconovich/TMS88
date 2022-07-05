@@ -438,15 +438,14 @@
     margin: 116px 170px 10px 129px;
     width: 471px;
     font-family: 'Cardo';
-font-style: italic;
-font-weight: 400;
-font-size: 36px;
-line-height: 49px;
-display: flex;
-align-items: center;
-text-transform: capitalize;
-
-color: #FFFFFF;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
 }
 
 .baner_box_item_auther{
@@ -460,7 +459,17 @@ color: #FFFFFF;
     text-transform: uppercase;
     color: #FFFFFF;
 }
+.banner_box_select{
+    margin-top: 31px;
+    width: 170px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
+.banner_box_select svg:hover{
+    fill:#7E5D6F;
+}
 
 
 
@@ -495,14 +504,81 @@ color: #FFFFFF;
 }
 
 
-.wrapper_footer{
-    height: 100px;
-    background-color: #353C65;
+footer{
+       background-color: #353C65;
 }
 
+.wrapper_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper_footer_menu{
+    width: 370px;
+}
+
+.wrapper_footer_menu_title{
+    margin-top: 71px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.wrapper_footer_menu_text{
+    display: flex;
+    margin-top: 28px;
+    margin-bottom: 67px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+     text-transform: capitalize;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrapper_footer_menu_icon{
+    width: 170px;
+      display: flex;
+     flex-direction: row;
+     justify-content:space-around;
+ }
+ .wrapper_footer_menu_icon_it{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin: 3px;
+     height: 39px;
+     width: 39px;
+     border: 1px solid #C6CBCD;
+ }
+ .wrapper_footer_menu_icon_it img{
+    /* sizes: 18px;*/
+     height: 18px;
+     
+ }
+
+ 
+.wrapper_footer_menu_icon_it{
+    margin: ;
+}
+
+.baner_box_item{
+    wrapper_footer_menu_text
+}
 .wrapper_Copyright{
     padding-top: 23px;
- 
+    
     background-color: #2C3154;
 }
 
