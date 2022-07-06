@@ -1,3 +1,82 @@
+@import "https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@700&family=Raleway:wght@400;700;900&display=swap";
+.header__menu {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
 
+.header__menu__logo {
+  width: 97px;
+}
+
+.header__menu__main {
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  display: flex;
+}
+
+.header__menu__main__basket {
+  padding: 0 17px;
+}
+
+.header__menu__main__search {
+  padding: 0 10px 0 17px;
+}
+
+.header__menu__main__link__nav__ul {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.header__menu__main__link__nav__ul__items {
+  padding: 35px 45px;
+}
+
+.header__menu__main__link__nav__ul__items a {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  position: relative;
+}
+
+.header__menu__main__link__nav__ul__items:hover a {
+  color: #f4bf87;
+}
+
+.header__menu__main__link__nav__ul__items:hover a:before {
+  content: "";
+  width: 85px;
+  height: 2px;
+  background-color: #f4bf87;
+  position: absolute;
+  top: 25px;
+  transform: translateX(-25%);
+}
+
+.main {
+  background-image: url("../../../../../bg_main.f3856826.png");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.warpper {
+  height: 1170px;
+  margin: 0 15px;
+}
 
 /*# sourceMappingURL=index.da533f7e.css.map */
