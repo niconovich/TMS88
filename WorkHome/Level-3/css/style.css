@@ -997,7 +997,7 @@ color: #000000;
 
 
 
-@media (max-width:320px){
+@media (max-width:500px){
 		.wrapper {
 			max-width: 320px;
 		}

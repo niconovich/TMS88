@@ -62,6 +62,11 @@
   transform: translateX(-25%);
 }
 
+.main {
+  height: 1000px;
+  background-image: url("../../../../../bg_main.3b264a5e.png");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
