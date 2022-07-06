@@ -15,7 +15,7 @@
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 1200px;
+    width: 1200px;
     padding: 0 15px;
 }
 
@@ -50,6 +50,9 @@
     display:flex;
     align-items: center;
     justify-content:space-around;
+}
+.NavMenu_mabail{
+    display:none
 }
 .NavMenu_item{
    /* border: 1px solid white;*/
@@ -106,7 +109,7 @@
      
     background-position: center;
     background-repeat: repeat;
-    background-size: auto;
+    background-size: cover;
     width: 100%;
     height: 747px;
     z-index: -3;
@@ -327,11 +330,11 @@
     background-position: center;
 }
 .work_3{
-    background: url(../assets/img/work_2.png);
+    background: url(../assets/img/work_3.png);
     background-position: center;
 }
 .work_4{
-    background: url(../assets/img/work_3.png);
+    background: url(../assets/img/work_4.png);
     background-position: center;
 }
 .work_5{
@@ -450,7 +453,7 @@
 
 .baner_box_item_auther{
     margin: 0 170px 0 129px;
-    width: 471px;
+    /*width: 471px;*/
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -596,11 +599,369 @@ footer{
     color: #FFFFFF;
 }
 
+ 
+
+@media (max-width: 1024px){
+
+    .wrapper{
+        margin: 0 auto;
+        width: 984px;
+        padding: 0 5px;
+    }
+    .wrapper_banner{
+        margin: 0 auto;
+    }
+   .box_project_wrapper{
+        with:1024px;
+    }
+    .NavMenu_item{
+        width: 112px;
+    }
+    .NavMenu_item a {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .box_meny_item {
+        width: 315px;
+    }
+    .main::before{
+        height: 747px;  
+    }
+    .main_title h1{
+        font-size: 48px;
+        line-height: 56px;
+    }
+    .main_text{
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .main_button button{
+        margin-bottom: 126px;
+    }
+
+    .box_project_wrapper{
+        width: 100vw;
+    }  
+
+    .box_project_item_image{
+        width: 256px;
+        height: 230px ;
+    }
+
+    .box_project_item_image:hover::before{
+        width: 256px;
+        height: 230px ;
+    }
+
+    .box_menu{
+        justify-content: center;
+        align-content: center;
+    }
+  
+    .box_menu_people_item{
+        width: 227px;
+
+    }
+
+
+    .box_menu_people_item_photo img{
+        width: 227px;
+    }
+    
+
+    .box_menu_people_item_FIO h3{
+           font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+ 
+    }
+    .box_menu_people_item_job{
+         font-size: 14px;
+        line-height: 16px;
+        }
+    .box_menu_people_item_text{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .box_menu_people_item_icon_it{
+        height: 32px;
+        width: 32px;
+        margin-bottom:78px ;
+    }
+    .box_menu_people_item_icon_it img {
+        height: 15px;
+    }
+
+
+    .baner_box_item{
+        width: 502px;
+    }
+    .baner_box_item_title{
+        margin: 47px 0px 10px 83px;
+        width: 330px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .baner_box_item_auther{
+        margin: 0px 0 110px 83px;
+        width: 330px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .banner_box_select_item svg{
+        height: 10px;
+        width: 10px;
+    }
+
+    .box_toStart{
+        margin-top: 78px;
+    }
+
+    .box_toStart_title h3{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .box_toStart_text{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .
+    .box_toStart{
+        margin-top: 77px;
+    }
+  
+   
+
+    .wrapper_footer_menu {
+        width: 315px;
+    }
+    .wrapper_footer_menu_title{
+        margin-top: 46px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .wrapper_footer_menu_text{
+        margin-top: 17px;
+        margin-bottom: 40px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .wrapper_footer_menu_icon_it{
+        height: 33px;
+        width: 33px;
+    }
+    .wrapper_footer_menu_icon_it img {
+        height: 14px;
+    }
+    .wrapper_Copyright{
+        padding-top:14px;
+    }
+    .wrapper_Copyright p{
+     
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+}
+
+
+
 @media (max-width: 320px){
 
-.wrapper{
-    max-width: 280px;
-}
+    .wrapper{
+        width: 280px;
+        padding: 0 1px;
+    }
+    .HeaderBox{
+        margin: 21px 0 0 0;
+        border: none;
+        justify-content: space-between;
+        }
+    .logo{
+        
+    }
+    #logo_SVG{
+        height: 14px;
+    }
+    .NavMenu{
+        display: none;
+    }
+    .logo {
+        margin: 0 ;
+    }
+    .NavMenu_mabail{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main {
+        margin: 70px 0 0 0;
+    }
+    .main::after{
+        height: 574px;
+    }
+    .main::before{
+        height: 574px;
+    }
+    .main_title h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .main_text{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .main_button button {
+        margin-bottom: 51px;
+        width: 279px;
+        height: 58px;
+    }
+    .box_menu{
+        margin-top: 40px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box_meny_item{
+        width: 280px;
+        margin-top: 0px;
+    }
+    .box_meny_item_image{
+        display: flex;
+    
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .box_meny_item_image img{
+         width: 64px;
+        height: 64px;
+  
+    }
+    .box_meny_item_title h3{
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 10px;
+    }
+    .box_meny_item_text{
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 40px;
+    }
+
+    .box_project_wrapper{
+        margin-top: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .box_project_item_image {
+        width: 160px;
+        height: 144px;
+    }
+    .box_project_item_image:hover::before {
+        width: 160px;
+        height: 144px;
+    }
+    .box_project_item_ative_title{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .box_project_item_ative_text{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .box_menu_people{
+        flex-direction: column;
+    }
+    .box_menu_people_item {
+        width:280px;
+    }
+    .box_menu_people_item_photo{
+        width:280px;
+    }
+    .box_menu_people_item_photo img{
+        width:280px;
+    }
+
+    .box_menu_people_item_FIO h3{
+        margin-top: 25px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .box_menu_people_item_job{
+        margin-top: 6px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .box_menu_people_item_text{
+        margin-top: 38px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .box_menu_people_item_icon_it{
+        height: 39px;
+        width: 39px;
+        margin-bottom: 55px;
+    }
+    .banner_box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .baner_box_item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 320px;
+    }
+    .baner_box_item_title{
+        width:320px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 32px;
+        margin: 32px 0 32px 0;
+    }
+    .baner_box_item_auther{
+        /*width:320px;*/
+        text-align: center;
+        font-size: 12px;
+        line-height: 14px;
+        margin: 0px;
+        margin-bottom: 95px;
+    }
+    .box_toStart_title{
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+    }
+    .box_toStart_text{
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+    }
+    .main_button {
+        margin-top: 13px;
+    }
+    .wrapper_footer{
+        flex-direction: column;
+    }
+    .wrapper_footer_menu{
+        width: 280px;
+    }
+    .wrapper_footer_menu_title{
+        margin-top: 34px;
+        margin-bottom: 33px;
+    }
+    .wrapper_footer_menu_text{
+        margin-top: 34px;
+    }
+    .wrapper_Copyright{
+        padding-top: 28px;
+    padding-bottom: 28px;
+    }
 
 
-}
+
+
+}    
