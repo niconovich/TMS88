@@ -62,10 +62,6 @@
   transform: translateX(-25%);
 }
 
-.main {
-  background-image: url("../../../../../bg_main.f3856826.png");
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -76,6 +72,7 @@
 
 .warpper {
   height: 1170px;
+  background-color: bisque;
   margin: 0 15px;
 }
 
