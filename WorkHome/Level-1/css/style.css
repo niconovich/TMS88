@@ -241,7 +241,8 @@ position: relative;
 
 }
 .box_menu_people_item_photo{
-   width: 270px;
+    
+   width: calc(90vw/3); /*270px;*/
 }
 .box_menu_people_item_FIO h3{
     margin-top: 35px;
@@ -310,8 +311,8 @@ position: relative;
 .box_project_item_image{
     display:flex;
     position: relative;
-    width: 378px;
-    height: 340px;
+    width: calc(90vw/4);
+    height: calc(90vw/4);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -323,35 +324,43 @@ position: relative;
 .work_1{
     background: url(../assets/img/work_1.png);
     background-position: center;
+    background-size: cover;
 }
  
 .work_2{
     background: url(../assets/img/work_2.png);
     background-position: center;
+    background-size: cover;
 }
 .work_3{
     background: url(../assets/img/work_3.png);
     background-position: center;
+    background-size: cover;
 }
 .work_4{
     background: url(../assets/img/work_4.png);
     background-position: center;
+    background-size: cover;
 }
 .work_5{
     background: url(../assets/img/work_5.png);
     background-position: center;
+    background-size: cover;
 }
 .work_6{
     background: url(../assets/img/work_6.png);
     background-position: center;
+    background-size: cover;
 }
 .work_7{
     background: url(../assets/img/work_7.png);
     background-position: center;
+    background-size: cover;
 }
 .work_8{
     background: url(../assets/img/work_8.png);
     background-position: center;
+    background-size: cover;
 }
 .box_project_item_image:hover::before{
     content: "";
@@ -359,8 +368,8 @@ position: relative;
     position: absolute;
     display:flex;
     flex-direction: column;
-    width: 378px;
-    height: 340px;
+    width: calc(90vw/4);
+    height: calc(90vw/4);
     background: rgba(255, 67, 67, 0.8);
     border: 2px solid #FFFFFF;
     justify-content: center;
@@ -379,8 +388,8 @@ position: relative;
     position: absolute;
     display:flex;
     flex-direction: column;
-    width: 378px;
-    height: 340px;
+    width: calc(90vw/4);
+    height: calc(90vw/4);
     background: rgba(185, 12, 12, 0.8);
     border: 2px solid #FFFFFF;
     justify-content: center;
@@ -644,7 +653,7 @@ footer{
     .main_button button{
         margin-bottom: 126px;
     }
-
+/*
     .box_project_wrapper{
         width: 100vw;
     }  
@@ -658,7 +667,7 @@ footer{
         width: 256px;
         height: 230px ;
     }
-
+*/
     .box_menu{
         justify-content: center;
         align-content: center;
@@ -860,12 +869,12 @@ footer{
         justify-content: center;
     }
     .box_project_item_image {
-        width: 160px;
-        height: 144px;
+        width: calc(90vw/2);
+        height: calc(90vw/2);
     }
     .box_project_item_image:hover::before {
-        width: 160px;
-        height: 144px;
+        width: calc(90vw/2);
+        height: calc(90vw/2);
     }
     .box_project_item_ative_title{
         font-size: 18px;
